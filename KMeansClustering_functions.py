@@ -106,7 +106,7 @@ for i in range(10): #for 10 iterations
     plt.legend()
     plt.show()
 
-predictions = nearestCentroid(alculateDistanceArray(newvals[0], newvals[1])) #create and array of the points with the corresponding nearest centroid's classification
+predictions = nearestCentroid(calculateDistanceArray(newvals[0], newvals[1])) #create and array of the points with the corresponding nearest centroid's classification
 truePositive = 0 #initialize values
 falsePositive = 0
 trueNegative = 0
